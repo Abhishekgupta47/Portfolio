@@ -1,14 +1,18 @@
-@import url('https://fonts-googleapis.com/css2?family=Fira+Sans&display=swap');
-@import url('https://fonts-googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap')
-*{
+/* @import url('https://fonts-googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts-googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap'); */
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Source+Code+Pro&display=swap');
+
+
+* {
     margin: 0;
     padding: 0;
 }
 .sidebar{
     /* background-color: rgba(242, 148, 41, 0.658); */
-    background-color: rgb(196, 191, 191);
-    width: 10vw;
-    font-family: 'Fira Sans',sans-serif;
+    background-color: rgb(204, 193, 193);
+    width: 15vw;
+    font-family: 'Fira Sans', sans-serif;
     height: 100vh;
 }
 .sidebar nav{
@@ -32,7 +36,7 @@
     height: 45vh;
     width: 80vw;
     margin: 144px auto;
-    height: 78vh;
+    height: 60vh;
     display: flex;
     justify-content: space-around;
 }
@@ -40,16 +44,16 @@
     display: flex;
        justify-content: center;
        flex-direction: column;
-       font-family: 'Source Code Pro',monospace;
-}
+       font-family: 'Source Code Pro', monospace;
+    }
 .hello{
-    font-size: 85px;
+    font-size: 65px;
 
 }
 .name{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
-    font-family: 'Fira Sans',sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 .about{
     font-size: 40px;
