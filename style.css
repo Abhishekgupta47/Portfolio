@@ -9,8 +9,8 @@
 }
 .sidebar{
     /* background-color: rgba(242, 148, 41, 0.658); */
-    background-color: rgb(204, 193, 193);
-    width: 15vw;
+    background-color: rgb(196, 185, 185);
+    width: 434px;
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
 }
@@ -25,7 +25,7 @@
 }
 .sidebar nav li a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .main{
     /* background-color: rgb(173, 203, 173); */
@@ -63,6 +63,7 @@
 }
 .moreabout{
     font-size: 25px;
+    margin-top: 23px;
 
 }
 .buttons{
