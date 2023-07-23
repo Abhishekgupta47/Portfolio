@@ -11,7 +11,7 @@
     /* background-color: rgba(242, 148, 41, 0.658); */
     background-color: rgb(196, 185, 185);
     width: 434px;
-    font-family: 'Fira Sans', sans-serif;
+    /* font-family: 'Fira Sans', sans-serif; */
     height: 100vh;
 }
 .sidebar nav{
@@ -70,8 +70,8 @@
     margin-top: 34px;
 }
 
-.buttons button{
-    font-size: 16px;
+.btn{
+    font-size: 21px;
     border-radius: 25px;
     padding: 12px;
     color: white;
@@ -80,17 +80,22 @@
     margin: 0 3px;
     cursor: pointer;
 }
-.buttons button:hover{
+.btn-sm{
+    padding: 10px 19px;
+    margin: 12px 0;
+    font-size: 14px;
+}
+.btn:hover{
     background-color:white ;
     color:rgb(139, 68, 221) ;
 }
 
 .devpic img{
-    width: 383px;
+    width: 300px;
     /* this is added by me */
-    border: 2px solid white ;
+    border: 8px solid white ;
     border-radius: 40px;
-    height: 78vh;
+    height: 60vh;
 }
 
  .contactform {
@@ -120,9 +125,10 @@
     padding: 3px;
  }
  #emailHelp{
-    font-size: 8px;
+    font-size: 11px;
     color: rgb(52, 52, 54);
     margin: 0 5px;
+    padding: 3px 0 0 0;
  }
  #form-check{
     flex-direction: row;
@@ -130,4 +136,16 @@
  #form-check input{
     width: 24px;
     margin: 3px 0;
+ }
+ .blogItem {
+    margin: 20px;
+    font-family: 'Fira sans',sans-serif;
+
+ }
+ .blogcontainer h1{
+    font-family: 'Fira sans',sans-serif;
+    margin: 23px;
+ }
+ .blogItem p{
+    font-family: 'Source Code Pro'monospace;
  }
