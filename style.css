@@ -91,11 +91,11 @@
 }
 
 .devpic img{
-    width: 300px;
+    width: 400px;
     /* this is added by me */
     border: 8px solid white ;
-    border-radius: 40px;
-    height: 60vh;
+    border-radius: 30px;
+    height: 80vh;
 }
 
  .contactform {
@@ -202,11 +202,11 @@
     *{
 
     
-background-color: rgb(167, 167, 209);
+/* background-color: rgb(167, 167, 209); */
     
 }
 .sidebar{
-    transform: translate(-433px,0px);
+    transform: translate(-443px, 0px);
     position: absolute;
 }
 }
