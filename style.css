@@ -142,10 +142,10 @@
     font-family: 'Fira sans',sans-serif;
 
  }
- .blogcontainer h1{
+ h1{
     font-family: 'Fira sans',sans-serif;
     margin: 23px;
  }
- .blogItem p{
+ p{
     font-family: 'Source Code Pro'monospace;
  }
