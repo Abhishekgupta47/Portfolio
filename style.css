@@ -103,6 +103,7 @@
     padding: 0 34px;
     padding-top: 144px;
     font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
 
  }
 
@@ -110,6 +111,7 @@
 
     font-family: 'Source Code Pro', monospace;
     padding: 12px 0;
+    font-weight: 600;
 
 
  }
@@ -149,3 +151,62 @@
  p{
     font-family: 'Source Code Pro'monospace;
  }
+ .intro h2{
+    font-family: 'Fira sans',sans-serif;
+    margin: 12px;
+
+}
+.intro p{
+    font-family: 'Source Code Pro' monospace;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro' monospace;
+    font-weight: 900;
+
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    /* background-color: red; */
+    border: 2px solid black;
+}
+.hundered{
+    width: 265px;
+    background-color: green;
+}
+.eighty{
+    width: 200px;
+    background-color: greenyellow;
+}
+.seventy{
+    width: 180px;
+    background-color: yellow;
+}
+.fifty{
+    width: 125px;
+    background-color: orange;
+
+}
+.t5{
+    width: 75px;
+    background-color: red;
+}
+
+@media (max-width: 1615px) {
+    *{
+
+    
+background-color: rgb(167, 167, 209);
+    
+}
+.sidebar{
+    transform: translate(-433px,0px);
+    position: absolute;
+}
+}
